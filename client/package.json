@@ -1,12 +1,15 @@
 {
-  "name": "mern",
+  "name": "google-books-search-react",
   "version": "0.1.0",
-  "description": "Mern Demo",
+  "description": "Google books search MERN Application",
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.1"
   },
   "scripts": {
