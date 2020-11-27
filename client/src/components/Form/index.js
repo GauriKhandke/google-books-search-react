@@ -19,7 +19,7 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
         <div className="col-md-2">
           <button
             type="submit"
-            className="btn btn-primary btn-md form-control"
+            className="btn btn-light btn-md form-control"
             onClick={handleFormSubmit}
           >
             Search

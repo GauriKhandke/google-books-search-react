@@ -8,14 +8,14 @@ class NavBar extends Component {
   render() {
     return (
       <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-start">
+      <nav className="navbar justify-content-start">
         <Link
           to="/"
           className={
             window.location.pathname === "/" ? "nav-link active" : "nav-link"
           }
         >
-          Google Books
+          <strong>Google Books</strong>
         </Link>
         <Link
           to="/"
