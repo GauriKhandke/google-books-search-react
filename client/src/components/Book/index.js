@@ -1,14 +1,19 @@
 import React from 'react';
+// Components
 import { ListItem } from '../List';
 import { Row, Col } from '../Grid';
+
+// style
 import './style.css';
 
 function Book({ title, subtitle, authors, link, description, image, Button }) {
 	return (
 		<>
+		{/* Book list */}
 			<ListItem>
 				<div className="book-container">
 					<Row className="flex-wrap-reverse">
+						{/* Book title */}
 						<Col size="md-8">
 							<h3 className="font-italic">{title}</h3>
 							{subtitle && (
@@ -18,6 +23,7 @@ function Book({ title, subtitle, authors, link, description, image, Button }) {
 							)}
 						</Col>
 						<Col size="md-4">
+							{/* view and save/delete Buttons */}
 							<div className="btn-container">
 								<a
 									className="btn btn-secondary"

@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+// Create Book schema
 const bookSchema = new Schema({
 	title: {
 		type: String,
@@ -33,6 +34,8 @@ const bookSchema = new Schema({
 	},
 });
 
+// Apply book schema to 'Book' model
 const Book = mongoose.model('Book', bookSchema);
 
+// Export Book model
 module.exports = Book;
