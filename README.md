@@ -11,7 +11,7 @@ The Google Books Search MERN app allows users to search for books of interest vi
 # Table of Contents
 
 * [Demo](#demo)
-* [Preview](#preview)
+* [Preview](#application-preview)
 * [Installation](#installation)
 * [Features](#features)
 * [Technology](#technology)
@@ -21,18 +21,23 @@ The Google Books Search MERN app allows users to search for books of interest vi
 # Demo : 
 
 ![Google Books](client/src/images/GoogleBooksSearch.gif)
+<br />
+<br />
 
-# Preview : 
+# Application Preview : 
 
 |Medium Devices/ Laptop|Small Devices/ Tablet|Extra Small Devices/Phone
 |--|--|--
-|![Laptop](client/src/images/Laptop.png)|![Tablet](client/src/images/Tablet.png)|![Mobile](client/src/images/Mobile.png)
+|![Laptop](client/src/images/GoogleBooksReact.png)|![Tablet](client/src/images/Tablet-iPad.png)|![Mobile](client/src/images/Mobile-iPhone.png)
+<br />
+<br />
 
-### Search and Saved page :
+## Search and Saved page :
 
 |Search Books|Saved Books|
 |--|--
 |![Search](client/src/images/Search.png)|![Saved](client/src/images/Saved.png)
+<br />
 
 # Installation
 
@@ -42,14 +47,23 @@ The Google Books Search MERN app allows users to search for books of interest vi
 
 3. Run `npm start` to start the application. Your app should now be running on <http://localhost:3000>.
 
+<br />
+
 # Features
 
 1. User can search for a book user wish to read. It will give list of all books available for search query.
+
 2. User can view individual book. View can redirect user to Google Books page.
+
 3. User can save books user wish to read. 
+
 4. User can get all saved books in 'Saved' link in navigation bar.
+
 5. User can view or delete each saved book.
+
 6. Application is deployed on heroku.
+
+<br />
 
 # Technology:
 
@@ -73,6 +87,7 @@ The Google Books Search MERN app allows users to search for books of interest vi
 
 #### 8. [Heroku](https://www.heroku.com/)
 
+<br />
 
 # License
 
