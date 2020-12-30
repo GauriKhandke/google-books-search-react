@@ -30,7 +30,6 @@ The Google Books Search MERN app allows users to search for books of interest vi
 |--|--|--
 |![Laptop](client/src/images/GoogleBooksReact.png)|![Tablet](client/src/images/Tablet-iPad.png)|![Mobile](client/src/images/Mobile-iPhone.png)
 <br />
-<br />
 
 ## Search and Saved page :
 
@@ -46,7 +45,6 @@ The Google Books Search MERN app allows users to search for books of interest vi
 2. On your local repo, run `npm install` to install dependencies.
 
 3. Run `npm start` to start the application. Your app should now be running on <http://localhost:3000>.
-
 <br />
 
 # Features
@@ -62,7 +60,6 @@ The Google Books Search MERN app allows users to search for books of interest vi
 5. User can view or delete each saved book.
 
 6. Application is deployed on heroku.
-
 <br />
 
 # Technology:
@@ -86,7 +83,6 @@ The Google Books Search MERN app allows users to search for books of interest vi
 #### 7. [Bootstrap](https://getbootstrap.com/)
 
 #### 8. [Heroku](https://www.heroku.com/)
-
 <br />
 
 # License
